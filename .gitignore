@@ -1,0 +1,7 @@
+# Temporary Microsoft Office lock files
+~$*.pptx
+
+# Local presentation inspection and render QA artifacts
+*.pptx.inspect.ndjson
+v2-montage.webp
+v2-slide-*.png
