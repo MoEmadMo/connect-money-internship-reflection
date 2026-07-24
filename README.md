@@ -13,18 +13,12 @@ Then visit http://localhost:8080.
 
 ## Deploy with GitHub Pages
 
-1. Create a GitHub repository and push this folder's contents to the default branch.
-2. Open Settings, then Pages.
+1. Push this folder's contents to the `main` branch of a GitHub repository.
+2. Open the repository's Settings, then Pages.
 3. Set Source to GitHub Actions.
-4. The included workflow publishes the site after each update to main.
+4. The included workflow publishes the site after each update to `main`.
 5. GitHub displays the public Pages URL after the first successful run.
 
-If this folder lives inside a larger repository, either move it to the repository root or change the workflow path value.
+This project is designed to be the repository root, so the workflow publishes the correct files automatically.
 
-## Deploy with Vercel
-
-1. Import the GitHub repository at https://vercel.com/new.
-2. Set Root Directory to ConnectMoney_Internship_Reflection_V2 when this folder is not the repository root.
-3. Deploy. No build command is required.
-
-The included vercel.json supplies a clean static-site configuration.
+No Vercel account, build step, or separate hosting service is required.
